@@ -1,0 +1,35 @@
+.details {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  background: #fff;
+  position: fixed;
+  z-index: 11;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  border-radius: 10px;
+  font-family: sans-serif;
+  transition: 0.3s;
+}
+.details.show {
+  position: fixed;
+  transform: translate(-50%, -50%) scale(1);
+}
+.details h3 {
+  text-align: center;
+  color: dodgerblue;
+  margin-bottom: 10px;
+}
+.details h4 {
+  color: rgb(114, 163, 211);
+  margin-bottom: 10px;
+}
+.details span svg {
+  font-size: 25px;
+  color: #fff;
+}
+
+button {
+  margin: 16px;
+}

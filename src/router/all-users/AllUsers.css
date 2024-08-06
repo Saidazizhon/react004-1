@@ -1,0 +1,26 @@
+.all__users {
+  padding: 40px 10%;
+  text-align: center;
+}
+
+.all__users .users__wrapper {
+  justify-content: center;
+}
+@media screen and (max-width: 750px) {
+  .all__users {
+    padding: 40px 20px;
+  }
+  .all__users .users__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    place-items: center;
+  }
+  .users__card {
+    width: 100% !important;
+    padding: 14px !important;
+  }
+  button {
+    margin: 6px !important;
+  }
+}
